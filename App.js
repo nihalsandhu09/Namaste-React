@@ -9,11 +9,14 @@
  * suppose i want to create sibbling we can give it array of children to our Reract Element
  */
 
+import React from "react";
+import ReactDOM from "react-dom/client";
+
 const parent = React.createElement(
   "div",
   { id: "parent" },[ 
   React.createElement("div", { id: "child" }, [
-    React.createElement("h1", { id: "heading", key: 1 }, "I m an h1 tag"),
+    React.createElement("h1", { id: "heading", key: 1 }, "Thsi is Namste React"),
     React.createElement("h2", { id: "heading", key: 2 }, "I m an h2 tag"),
   ]),
   React.createElement("div", { id: "child2" }, [
